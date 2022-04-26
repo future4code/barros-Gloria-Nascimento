@@ -1,6 +1,7 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
 // EXERCÍCIO 0A
+
 function soma(num1, num2) {
   // implemente sua lógica aqui
   return num1 + num2
@@ -19,6 +20,12 @@ function imprimeMensagem() {
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
+
+let altura = Number (prompt =(`digite uma altura`))
+let largura = Number (prompt =(`Digite uma largura`))
+calculaAreaRetangulo = altura * largura
+console.log (calculaAreaRetangulo)
+
 
 }
 
