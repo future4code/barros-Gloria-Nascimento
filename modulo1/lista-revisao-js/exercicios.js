@@ -157,7 +157,7 @@ function retornaContasComSaldoAtualizado(contas) {
         let gastos = 0
         for (let index = 0; index < cliente.compras.length; index++) {
             gastos += cliente.compras[index];
-            //teste do git hub.
+            
         }
         cliente.compras = []
         cliente.saldoTotal -= gastos
@@ -184,3 +184,4 @@ function retornaArrayOrdenadoPorData(consultas) {
     });
     return consultas
 }
+// exercicio concluido 
