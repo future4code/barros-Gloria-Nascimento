@@ -1,20 +1,37 @@
+head {
+    align-items: center;
+}
 body{
     text-align: center;
 }
-footer{ background-color:  #c8a47b;
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #ff8210;
+align-items: center;
+vertical-align: middle;
+}
+main{
+    color: #ff8210;
+    display: grid;
+   vertical-align: middle;
+}
+p{  display: inline;
+    color: #ff8210;
+    width: 500px;
+    border: none;
+    padding: 15px;
     text-align: center;
 }
-header{
+
+footer{ 
+    
     align-items: center;
-}
-p{
-    color: black;
-    width: 600px;
-    border: 2px solid black;
-    padding: 15px;
-    text-align: left;
-}
-.container{
-    display: flex;
-    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffdb4f;
+    width: 100%;
+    height: 30px;    
+    text-align: center;
+    line-height: 2px;
 }
