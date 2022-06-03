@@ -1,0 +1,75 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: mediumvioletred;
+    padding-right: 10px;
+}
+h1 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+button{
+
+    align-self: center;
+    background-color: white;
+  
+    
+    
+}
+nav{
+    background-color: #f2d0e0;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.sombra{
+    background: url;
+    width: 258px;
+    border-color:darkgray ;
+}
+footer{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: center;
+    padding: 3px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 15px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0%;
+}
+h3{
+    font-size: 25px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 15px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; 
+}
+.menuprodutos{
+   padding: 30px;
+}
+.navegacao{
+    background-color: #f2d0e0;
+    width: 22%;
+    height:100%;
+}
+.produtos{
+    align-content: flex-start;
+    width:78%;
+}
+.paginainicial{
+display: flex;
+
+}
