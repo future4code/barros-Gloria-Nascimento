@@ -1,0 +1,19 @@
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+}
+.grid-butons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 2%;
+}
+button{
+    margin: 1%;
+    padding: 0%;
+    background: none;
+    border-color: green;
+}
