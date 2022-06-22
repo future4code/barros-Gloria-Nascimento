@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.Img-Perfil{
+  width: 350px;
+}
+
+button{
+  margin: 30px;
+  color: #eb7b73;
+  background-color: white;
+  border: #eb7b73;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.App-header {
+  background-color: #eb7b73;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
