@@ -40,6 +40,7 @@ footer{
     position: fixed;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
 }
 h2{
     font-size: 15px; 
@@ -58,8 +59,9 @@ p{
     font-style: normal; 
 }
 .menuprodutos{
-   padding: 30px;
-}
+   align-content: flex-start;
+    width:78%;
+    padding: 30px;
 .navegacao{
     background-color: #f2d0e0;
     width: 22%;
@@ -68,8 +70,12 @@ p{
 .produtos{
     align-content: flex-start;
     width:78%;
+    padding: 30px;
+}
 }
 .paginainicial{
 display: flex;
+flex-flow: row
+;
 
 }
