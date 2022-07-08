@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Post from './components/Post/Post';
 import './style.css'
 
-const ListaDeDados = [
+const [Postagens, setPostagens] = useState[
   {nomeUsuario : 'paulinha',
   fotoUsuario : 'https://picsum.photos/25/50',
   fotoPost : 'https://picsum.photos/201/150'
@@ -17,15 +17,45 @@ const ListaDeDados = [
   }
 ]
 
-const ListaDeComponentes = ListaDeDados.map((item, index) => {
+const ListaDePostagens = Postagens.map((item, index) => {
   return <li key={index}><Post nomeUsuario={item.nomeUsuario} fotoUsuario={item.fotoUsuario} fotoPost={item.fotoPost}></Post></li>
 })
+
+
+
+
+
+
+
+const CriacaoPost = ( ) => {
+  
+}
+
+const AdicionarPostagem = (dados) => {
+  const NovaPostagem = [...ListaDePostagens]
+  NovaPostagem.push(dados)
+  setPostagens(NovaPostagem)
+}
+
+
+
+
+
 
 function App() {
 return(
   <div className='MainContainer'>
+    <div className='OrganizarFormulario'>
+      <p>User:</p>
+      <input type='text' value={"Usuario"}></input>
+      <p>Perfil:</p>
+      <input type='' placeholder={"De 0 à 20"}></input>
+      <p>Imagem:</p>
+      <input type='' placeholder={"De 0 à 20"}></input>
+      <button onClick={AdicionarPostagem({nomeUsuario: document.querySelector()})}>Enviar</button>
+    </div>
     <ul>
-      {ListaDeComponentes}
+      {ListaDePostagens}
     </ul>
   </div>
 )
