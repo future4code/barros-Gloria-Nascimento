@@ -36,7 +36,7 @@ const AdicionarPostagem = (dados) => {
   NovaPostagem.push(dados)
   setPostagens(NovaPostagem)
 }
-
+//teste
 
 
 
