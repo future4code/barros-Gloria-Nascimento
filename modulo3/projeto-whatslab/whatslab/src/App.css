@@ -1,0 +1,47 @@
+header{
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 84.5vh;
+  background-color: rgb(212, 124, 8);
+}
+
+.interface-user{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.input-msg{
+  width: 45%;
+  margin-right: 3%;
+}
+
+.espacamento-interface-user{
+  margin-right: 3%;
+}
+
+.interface-msg{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+}
+
+footer{
+  text-align: center;
+  bottom: 0%;
+  background-color: rgb(151, 146, 146);
+  position: fixed;
+  width: 100%;
+}
